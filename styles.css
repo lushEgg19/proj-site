@@ -32,10 +32,11 @@ div {
     justify-content: space-evenly;
     align-items: center;
     background: #1F2937;
+    padding: 100px 0;
 }
 
 .welcome {
-    width: 350px;
+    width: 330px;
     padding: 32px 0;
 }
 
@@ -43,11 +44,13 @@ div {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 0;
 }
 
 .welcome p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0;
 }
 
 .welcome button {
@@ -55,6 +58,8 @@ div {
     border-style: none;
     border-radius: 5px;
     padding: 8px 24px;
+    color:#E5E7EB;
+    font-size: 16px;
 }
 
 .container.second {
@@ -62,7 +67,13 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px 0;
+    padding: 100px 0;
+}
+
+.container.second h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .content {
@@ -72,15 +83,78 @@ div {
 }
 
 .image-div {
-    height: 100px;
-    width: 100px;
+    height: 175px;
+    width: 175px;
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
 
-.container.third {
+.third {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px 0;
+}
+
+.third .container {
+    max-width: fit-content;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.fourth .container {
+    background: #3882f6;
+    width: 900px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 48px;
+}
+
+.signup h2 {
+    font-size: 32px;
+}
+
+.signup h2, .signup p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.fourth .container button {
+    margin: auto 0;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    background: #3882f6;
+    color: #E5E7EB;
+    padding: 10px 32px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #E5E7EB;
+    font-size: 24px;
 }
